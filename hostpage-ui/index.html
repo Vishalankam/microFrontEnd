@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Vehicle</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .content {
+        padding: 1em;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        column-gap: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <my-header></my-header>
+    <div class="content">
+      <div>
+        <vehicle-desc></vehicle-desc>
+      </div>
+      <my-actions></my-actions>
+    </div>
+
+    <script src="./globalFunction.js"></script>
+    <script src="../actions-ui/build/static/js/main.js"></script>
+    <script src="../vehicles-ui/build/static//js/main.js"></script>
+    <script src="../headers-ui/build/static/js/main.js"></script>
+  </body>
+</html>
